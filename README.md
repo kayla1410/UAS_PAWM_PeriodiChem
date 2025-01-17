@@ -18,7 +18,7 @@ Tugas UAS II3140 Pengembangan Aplikasi Web dan Mobile ini bertujuan untuk mengem
 ## How to Run
 1. Open the following URL to access PeriodiChem via the website:
 ```
-aaa
+https://uas-pawm-periodi-chem-deploy-xwnj.vercel.app/signin
 ```
 2. Download the app to access PeriodiChem on Android or iOS devices:
 ```
