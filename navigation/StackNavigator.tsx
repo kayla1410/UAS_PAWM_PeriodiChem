@@ -27,8 +27,8 @@ export type RootStackScreenProps<T extends keyof RootStackParamList> = NativeSta
 const Stack = createStackNavigator<RootStackParamList>();
 
 const StackNavigator = () => (
-  <NavigationContainer>
-    <Stack.Navigator initialRouteName="Dashboard">
+  // <NavigationContainer>
+    <Stack.Navigator initialRouteName="SignUp">
       <Stack.Screen name="SignIn" component={SignIn} />
       <Stack.Screen name="SignUp" component={SignUp} />
       <Stack.Screen name="Dashboard" component={Dashboard} />
@@ -45,7 +45,7 @@ const StackNavigator = () => (
         options={({ route }) => ({ title: `Level ${route.params.level}` })}
       />
     </Stack.Navigator>
-  </NavigationContainer>
+  // </NavigationContainer>
 );
 
 export default StackNavigator;
